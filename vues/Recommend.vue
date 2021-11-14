@@ -1,10 +1,7 @@
 <template>
   
   <div class="recommend">
-       <img
-          src="../assets/Images/recommend.png"
-          class="banner"
-        />
+      <img src="../assets/Images/recommend1.png" alt="">
   </div>
  
 </template>
@@ -15,15 +12,15 @@ export default {};
 
 <style lang="scss" scoped>
 .recommend {
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-   
-    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans", "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Meiryo, sans-serif;
+width: 100vw;
+    // height: 1594px;
+    // background-image: url(../assets/Images/recommend1.png);
+    background-position: center;
+    margin: auto;
 }
 img {
        width: 100%;
-    height: 1594px  ;
+    // height: 1594px  ;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
