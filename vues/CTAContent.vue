@@ -67,6 +67,17 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+body {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans",
+    "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Segoe UI", Meiryo, sans-serif;
+  @media (max-width: 1000px) {
+    font-size: 40px;
+  }
+}
 .anime_bg {
   position: relative;
 
@@ -249,28 +260,30 @@ img {
   animation-duration: 11s;
 }
 p {
-    line-height: 1.7;
-    font-weight: 400;
-    color: #1a1a1a;
-    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans", "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Meiryo, sans-serif;
-    text-align: center;
+  line-height: 1.7;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans",
+    "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Segoe UI", Meiryo, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  @media (max-width: 790px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 576px) {
     font-size: 22px;
-    @media (max-width: 790px) {
-        font-size: 28px;
-    }
+  }
 
-    @media (max-width: 576px) {
-        font-size: 22px;
+  @media (max-width: 425px) {
+    font-size: 17px;
+  }
+  .brRes {
+    @media (max-width: 768px) {
+      content: "";
     }
-
-    @media (max-width: 425px) {
-        font-size: 17px;
-    }
-    .brRes {
-        @media (max-width: 768px) {
-            content: "";   
-        }
-    }
+  }
 }
 @keyframes rise {
   0% {

@@ -1,20 +1,20 @@
 <template>
-    <div class="wrap" style="overflow:hidden">
-      <Header />
-      <Fire />
-      <Course-Goal />
-      <Recommend />
-      <CourseOutline />
-      <CourseContents />
-      <InvestmentKnowledge />
-      <CourseLearnStep />
-      <CourseTakeStep />
-      <Technology />
-      <StudentsVoice />
-      <QA />
-      <CTAContent />
-      <Footer />
-    </div>
+  <div class="wrap" style="overflow: hidden">
+    <Header />
+    <Fire />
+    <Course-Goal />
+    <Recommend />
+    <CourseOutline />
+    <CourseContents />
+    <InvestmentKnowledge />
+    <CourseLearnStep />
+    <CourseTakeStep />
+    <Technology />
+    <StudentsVoice />
+    <QA />
+    <CTAContent />
+    <Footer />
+  </div>
 </template>
 
 <script>
@@ -48,20 +48,7 @@ export default {
     StudentsVoice,
     QA,
     CTAContent,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
-
-<style lang="scss" scoped>
- body {
-   font-size: 22px;
-    margin: 0;
-    padding: 0;
-    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans", "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Meiryo, sans-serif;
-    @media (max-width: 1000px) {
-      font-size: 40px;
-    }
-}
-
-</style>
