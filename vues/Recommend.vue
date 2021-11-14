@@ -1,11 +1,21 @@
 <template>
   <div class="recommend">
-    <img src="../assets/Images/recommend1.png" alt="" />
+    <img src="../assets/Images/recommend.png" class="recommendImagePc" alt="" />
+    <img src="../assets/Images/recommend1.png" class="recommendImageMo" alt="" />
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+    mounted() {
+        const windowWidth = window.innerWidth;
+        if (windowWidth < 768) {
+            document.getElementsByClassName("recommendImagePc")[0].style.display = "none";
+        } else {
+            document.getElementsByClassName("recommendImageMo")[0].style.display = "none";
+        }
+    }
+};
 </script>
 
 <style lang="scss" scoped>
