@@ -67,17 +67,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-body {
-  font-size: 22px;
-  margin: 0;
-  padding: 0;
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans",
-    "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue",
-    "Segoe UI", Meiryo, sans-serif;
-  @media (max-width: 1000px) {
-    font-size: 40px;
-  }
-}
 .anime_bg {
   position: relative;
 
@@ -100,7 +89,7 @@ body {
     margin: 0px auto;
     line-height: 0;
     background: none;
-    padding: 20px 20px 80px 20px;
+    padding: 20px 0px 80px 0px;
     @media (max-width: 768px) {
       max-width: 94% !important;
       padding: 20px 20px 2px 20px;
@@ -126,7 +115,7 @@ img {
 }
 .cta_p {
   color: #fff;
-  margin-top: 95px;
+  margin-top: 55px;
   font-size: 22px;
   @media (max-width: 768px) {
     margin-top: 49px;
@@ -134,20 +123,20 @@ img {
 }
 .area3 {
   background: #000066;
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  // background: -webkit-linear-gradient(270deg,#8f94fb,#4e54c8);
   width: 100%;
   height: 750px;
   @media (max-width: 768px) {
     height: 640px;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 577px) {
     height: 540px;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 426px) {
     height: 500px;
   }
-  @media (max-width: 375px) {
-    height: 480px;
+  @media (max-width: 376px) {
+    height: 420px;
   }
   .circles {
     position: relative;
@@ -260,30 +249,28 @@ img {
   animation-duration: 11s;
 }
 p {
-  line-height: 1.7;
-  font-weight: 400;
-  color: #1a1a1a;
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans",
-    "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue",
-    "Segoe UI", Meiryo, sans-serif;
-  text-align: center;
-  font-size: 22px;
-  @media (max-width: 790px) {
-    font-size: 28px;
-  }
-
-  @media (max-width: 576px) {
+    line-height: 1.7;
+    font-weight: 400;
+    color: #1a1a1a;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans", "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Meiryo, sans-serif;
+    text-align: center;
     font-size: 22px;
-  }
-
-  @media (max-width: 425px) {
-    font-size: 17px;
-  }
-  .brRes {
-    @media (max-width: 768px) {
-      content: "";
+    @media (max-width: 790px) {
+        font-size: 28px;
     }
-  }
+
+    @media (max-width: 576px) {
+        font-size: 22px !important;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 17px !important;
+    }
+    .brRes {
+        @media (max-width: 768px) {
+            content: "";   
+        }
+    }
 }
 @keyframes rise {
   0% {

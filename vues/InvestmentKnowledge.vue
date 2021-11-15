@@ -50,17 +50,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-body {
-  font-size: 22px;
-  margin: 0;
-  padding: 0;
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans",
-    "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue",
-    "Segoe UI", Meiryo, sans-serif;
-  @media (max-width: 1000px) {
-    font-size: 40px;
-  }
-}
 .anime_bg {
   position: relative;
   .context {
@@ -73,7 +62,7 @@ body {
       margin: 0px auto;
       line-height: 0;
       background: none;
-      padding: 20px 20px 80px 20px;
+      padding: 20px 0px 80px 0px;
       @media (max-width: 768px) {
         max-width: 100% !important;
         padding: 20px 20px 2px 20px;
@@ -98,19 +87,19 @@ body {
   }
   .area2 {
     background: #000066;
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    // background: -webkit-linear-gradient(270deg,#8f94fb,#4e54c8);
     width: 100%;
     height: 1000px;
     @media (max-width: 768px) {
       height: 950px;
     }
     @media (max-width: 576px) {
-      height: 800px;
+      height: 750px;
     }
-    @media (max-width: 425px) {
+    @media (max-width: 426px) {
       height: 690px;
     }
-    @media (max-width: 375px) {
+    @media (max-width: 376px) {
       height: 630px;
     }
 
@@ -246,6 +235,7 @@ p {
   padding: 30px 0 40px 0;
   text-align: center;
   font-size: 22px;
+  margin-bottom: 0px;
 }
 
 img {
