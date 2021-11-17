@@ -3,7 +3,7 @@ const webpack = require('webpack')
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'オンライン家庭教師マナリンク | 全国のプロを指名できる家庭教師サービス',
+    title: 'FIREとは「Financial Independence（経済的自立）」と',
     htmlAttrs: {
       lang: 'jp'
     },

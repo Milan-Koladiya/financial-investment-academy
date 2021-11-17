@@ -63,7 +63,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"オンライン家庭教師マナリンク | 全国のプロを指名できる家庭教師サービス","htmlAttrs":{"lang":"jp"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"オンライン家庭教師マナリンクでは自分にあったプロのオンライン家庭教師を指名して、指導を受けられます。質の高い指導と明確な料金体系が特徴です。無料体験指導もおこなっていますので、お気軽にお申し込みください。"},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"FIREとは「Financial Independence（経済的自立）」と","htmlAttrs":{"lang":"jp"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"オンライン家庭教師マナリンクでは自分にあったプロのオンライン家庭教師を指名して、指導を受けられます。質の高い指導と明確な料金体系が特徴です。無料体験指導もおこなっていますので、お気軽にお申し込みください。"},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
 
     router,
     nuxt: {
