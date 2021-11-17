@@ -113,7 +113,7 @@ export default {};
             background: #000066;
             // background: -webkit-linear-gradient(270deg,#8f94fb,#4e54c8);
             width: 100%;
-            height: 1370px;
+                height: 1244px;
 
             @media (max-width: 768px) {
                 height: 1300px;
@@ -122,10 +122,10 @@ export default {};
                 height: 920px;
             }
             @media (max-width: 576px) {
-                height: 780px;
+                height: 873px;
             }
-            @media (max-width: 576px) {
-                height: 730px;
+            @media (max-width: 375px) {
+               height: 717px;
             }
 
             .circles {

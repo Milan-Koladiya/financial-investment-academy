@@ -60,7 +60,22 @@
     };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+button.slick-prev:before, button.slick-next:before {
+      background-color: red !important;
+}
+.StudentsVoice .content .slick-prev::before {
+  background-color: white !important;
+  color: #fff !important;
+  opacity: 1 !important;
+}
+button.slick-prev:before, button.slick-next:before {
+  background-color: white !important;
+  color: #000066  !important;
+}
+.custom-dot-class {
+  display: none !important;
+}
 .StudentsVoice {
   font-size: 22px;
   margin: 0;
@@ -69,7 +84,10 @@
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans",
     "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue",
     "Segoe UI", Meiryo, sans-serif;
-
+  @media (max-width: 768px) {
+  margin-left: 6%;
+  width: 90%;
+  }
   .content {
     width: 100%;
     max-width: 900px;
