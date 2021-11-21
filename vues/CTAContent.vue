@@ -249,28 +249,30 @@ img {
   animation-duration: 11s;
 }
 p {
-    line-height: 1.7;
-    font-weight: 400;
-    color: #1a1a1a;
-    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans", "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Meiryo, sans-serif;
-    text-align: center;
-    font-size: 22px;
-    @media (max-width: 790px) {
-        font-size: 28px;
-    }
+  line-height: 1.7;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Sans",
+    "ヒラギノ角ゴ ProN", apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Segoe UI", Meiryo, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  @media (max-width: 790px) {
+    font-size: 28px;
+  }
 
-    @media (max-width: 576px) {
-        font-size: 22px !important;
-    }
+  @media (max-width: 576px) {
+    font-size: 22px !important;
+  }
 
-    @media (max-width: 425px) {
-        font-size: 17px !important;
+  @media (max-width: 425px) {
+    font-size: 17px !important;
+  }
+  .brRes {
+    @media (max-width: 768px) {
+      content: "";
     }
-    .brRes {
-        @media (max-width: 768px) {
-            content: "";   
-        }
-    }
+  }
 }
 @keyframes rise {
   0% {
